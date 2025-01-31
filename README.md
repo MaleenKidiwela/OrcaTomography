@@ -2,11 +2,17 @@
 
 This dataset contains 3 tomography models developed for Orca Volcano, Bransfield Basin, Antarctica
 1) Pg_Orca_velocity.nc - Isotropic Pg tomography model
-2) Pg_Anis_Orca_velocity.nc - Anisotropic Pg tomography model 3) Pg_Pmc_Orca_velocity.nc - Isotropic Pg-Pmc tomography model 4) Orca_bathymetry.nc - Bathymetry file for Orca Volcano
+2) Pg_Anis_Orca_velocity.nc - Anisotropic Pg tomography model
+3) Pg_Pmc_Orca_velocity.nc - Isotropic Pg-Pmc tomography model
+4) Orca_bathymetry.nc - Bathymetry file for Orca Volcano
+
+   
 As part of the Bransfield Volcano Seismology (BRAVOSEIS) project (Almendros et al., 2020), a tomographic experiment was conducted on Orca Volcano and the ridges extending to the west and southwest (Figure 2) using 15 ocean bottom seismometers (OBSs), each equipped with a three-component seismometer and hydrophone. Fifteen instruments were US short-period Ocean Bottom Seismograph Instrument Pool (OBSIP) seismometers, and 1 was a German Instrument Pool for Amphibian Seismology (DEPAS) broadband OBS. The network had an instrument spacing of 3-4 km around the volcano with 3 OBS in the caldera area ~1.5 km apart. For the tomography experiment, a total of 2426 air gun shots were fired with a 6-gun 2540- cubic-inch (41.6 L) array. Shots were spaced 200 m apart along shot lines totaling 485 km in length. Most shots were on twenty one 21-km-long lines (T1-29) oriented southwest-northeast and spaced 0.5 to 1 km apart with the highest shot density above the caldera and the southwest ridge (Figure 2b). To generate deeper ray paths from the northeast, tomography shots were also obtained along two curved lines (T31-36) running southeast-northwest. This active source tomography experiment imaged the three-dimensional isotropic and anisotropic P-wave (Pg) velocity structure of the upper- crust of Orca Volcano. Additionally, we developed a method to incorporate secondary arrivals to improve the imaging of the volcano’s magma chamber that produced the Pg- Pmc isotropic model. Each value in the 3D velocity model represents a 0.2 km x 0.2 km x 0.2 km cube.
 README for Pg_Orca_velocity.nc
 This README describes the structure and contents of the Pg_Orca_velocity.nc file The file contains a 3D velocity model—converted from the MATLAB structure (`srModel`)—along with corresponding spatial coordinates.
 Each value in the 3D model represents a 0.2 km x 0.2 km x 0.2 km cube
+
+
 ---
 Contents
 1. 1D Coordinate Variables - xg
