@@ -1,4 +1,4 @@
-## **Orca Volcano Tomography Models and Bathymetry**
+## **Orca Volcano Tomography Models**
 
 This dataset contains 3 tomography models developed for Orca Volcano, Bransfield Basin, Antarctica
 1) Pg_Orca_velocity.nc - Isotropic Pg tomography model
